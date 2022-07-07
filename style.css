@@ -3,12 +3,21 @@ body {
 
 }
 
+.title {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
 .userInput {
     display: flex;
     justify-content: center;
 }
 
 .selection {
+    background: none;
+    border: none;
+    outline: none;
     background: none;
     cursor:pointer;
     font-size: 2rem;
@@ -38,7 +47,8 @@ body {
     opacity: .5;
 }
 
-.result-selection.winner {
+.result-selection.winner { 
     opacity: 1;
-    font-size: ;
+    font-size: 2.5rem; 
+    /* winner bigger emoji size */
 }
