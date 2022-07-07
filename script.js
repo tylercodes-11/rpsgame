@@ -53,7 +53,7 @@ function addSelectionResult(selection, winner) {
     finalColumn.after(div) //updating past input after last
 }
 
-function isWinner (selection, opponentSelection) {
+function isWinner (selection, opponentSelection) { //winner function
     return selection.beats === opponentSelection.name
 }
 
