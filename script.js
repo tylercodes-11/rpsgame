@@ -24,7 +24,7 @@ const SELECTIONS = [
 selectionButtons.forEach(selectionButton => {
     selectionButton.addEventListener('click', e => { //take in an event
         const selectionName = selectionButton.dataset.selection
-        const selection = SELECTIONS.find(selection => selection.name === selectionName)
+        const selection = SELECTIONS.find(selection => selection.name === selectionName) //what choice selected
         makeSelection(selection)
     })
 })
@@ -55,7 +55,7 @@ function addSelectionResult(selection, winner) {
 }
 
 function isWinner (selection, opponentSelection) { //winner function
-    return selection.beats === opponentSelection.name
+    return selection.beats === opponentSelection.name 
 }
 
 function randomSelection() { //random computer choice
