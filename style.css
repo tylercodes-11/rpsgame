@@ -1,5 +1,6 @@
 body {
     background-color: #CCC;
+    height: 500px;
 
 }
 
@@ -8,6 +9,7 @@ body {
     width: 100px;
     border-radius: 10%;
     height: 100px;
+    margin: auto;
 }
 
 .title {
