@@ -14,7 +14,7 @@ Welcome to the Rock-Paper-Scissors App! This is a web-based implementation of th
 2. The computer will also randomly choose its move.
 3. Your score and the computer's score will be updated accordingly.
 4. Play multiple rounds to see who comes out as the ultimate victor!
-5. Reset  the game by clicking the New Game button
+5. Reset  the game by simlpy refreshing the page.
 
 ## Files
 
