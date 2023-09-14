@@ -1,7 +1,7 @@
 
-# Rock-Paper-Scissors App
+# Rock-Paper-Scissors Game
 
-Welcome to the Rock-Paper-Scissors App! This is a web-based implementation of the classic Rock-Paper-Scissors game. Test your luck and strategy against the computer and see if you can emerge as the ultimate winner, right in your browser!
+Welcome to the Rock-Paper-Scissors Game! This is a web-based implementation of the classic Rock-Paper-Scissors game. Test your luck and strategy against the computer and see if you can emerge as the ultimate winner, right in your browser!
 
 ## How to Play
 
