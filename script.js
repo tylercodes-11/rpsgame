@@ -1,4 +1,5 @@
 const selectionButtons = document.querySelectorAll('[data-selection]');
+const result_p = document.getElementById('resultText');
 // const scoreBoard_div = document. querySelectorAll('.result-score');
 const yourScoreSpan = document.getElementById('userScore');
 const computerScoreSpan = document.getElementById('botScore');
@@ -54,6 +55,7 @@ function makeSelection(selection) {
 
     if(yourWinner) win() //incrementing your score
     if(computerWinner) loss()//incrementing computer score
+    // if(!yourWinner || !computerWinner) 
     // if(!yourWinner || computerWinner) draw() 
 };
 
@@ -75,6 +77,9 @@ function  incrementScore(scoreSpan) { //keeping score function
 function win() {
     userScore++;
     incrementScore(yourScoreSpan);
+    
+    // result_p.innerText = `${selection.name} beats ${computerSelection.name}! You Win! 🏆` 
+
 console.log(userScore);
 
 }
